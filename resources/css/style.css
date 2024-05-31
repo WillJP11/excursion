@@ -3,58 +3,8 @@ body {background-color: black
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-/*VARIABLES & BASICS*/
-:root {
-    --colour-background: black;
-    --colour-foreground: white;
-    --colour-accent: aquamarine;
-    --colour-emphasis: grey;
-    --gap-base: 1rem;
-}
-
-html {
-    font-size: 100%; /*16px based on stock standard browser defaults*/
-}
-
-/*STYLING*/
-body {
-    background: var(--colour-background);
-    color: var(--colour-foreground);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin: 0 auto;
-}
-
-h1 {
-    font-size: 50px; /*todo: update to em equiv*/
+.header--main {
     font-weight: normal;
-}
-
-h2 {
-    font-size: 42px; /*todo: update to em equiv*/
-    font-weight: 300;
-}
-
-a:link {
-    color: var(--colour-accent);
-}
-
-.features .emphasis {
-    color: var(--colour-emphasis);
-    font-size: 21px; /*todo: update to em equiv*/
-}
-
-footer {
-    text-align: right;
-    color: var(--colour-emphasis);
-}
-
-/*LAYOUT*/
-.hero video {
-    display: block;
-    margin: calc(var(--gap-base) * 1.5) auto;
-}
-
-.coming-soon img {
-    margin-top: var(--gap-base);
-}
+    font-size: 50px;
+    color:white;
+}    
